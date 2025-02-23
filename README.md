@@ -52,7 +52,7 @@ python cli.py --csv test_data.csv --threshold1 0.3 --threshold2 0.85
 
 Use the `nn_classifier.ipynb` notebook.
 
-- Requires dataset at `/content/intent-detection-extended-v2.csv`
+- Requires dataset at `/content/intent-detection-augmented.csv`
 - Implements:
   - Stratified data splitting
   - 200+ epoch training with early stopping
@@ -60,19 +60,31 @@ Use the `nn_classifier.ipynb` notebook.
 
 ## Model Performance
 
-**Accuracy:** 0.8929
+**Accuracy:** 0.9623  
 
 | Intent            | Precision | Recall | F1-score | Support |
 |-------------------|-----------|--------|----------|---------|
-| book_flight      | 1.00      | 1.00   | 1.00     | 2       |
-| book_hotel       | 0.75      | 1.00   | 0.86     | 3       |
-| carry_on         | 1.00      | 1.00   | 1.00     | 3       |
-| flight_status    | 1.00      | 1.00   | 1.00     | 3       |
-| lost_luggage     | 1.00      | 1.00   | 1.00     | 3       |
-| out_of_scope     | 0.80      | 0.67   | 0.73     | 6       |
-| translate        | 1.00      | 1.00   | 1.00     | 3       |
-| travel_alert     | 1.00      | 1.00   | 1.00     | 2       |
-| travel_suggestion | 0.67     | 0.67   | 0.67     | 3       |
+| book_flight      | 1.00      | 1.00   | 1.00     | 5       |
+| book_hotel       | 1.00      | 1.00   | 1.00     | 5       |
+| carry_on         | 1.00      | 1.00   | 1.00     | 6       |
+| flight_status    | 1.00      | 1.00   | 1.00     | 5       |
+| lost_luggage     | 0.83      | 1.00   | 0.91     | 5       |
+| out_of_scope     | 1.00      | 0.80   | 0.89     | 10      |
+| translate        | 1.00      | 1.00   | 1.00     | 6       |
+| travel_alert     | 0.83      | 1.00   | 0.91     | 5       |
+| travel_suggestion | 1.00     | 1.00   | 1.00     | 6       |
+
+### Global Metrics  
+
+| Metric           | Value  |
+|-----------------|--------|
+| **Accuracy**        | **0.9623** |
+| **Macro Avg Precision** | 0.96  |
+| **Macro Avg Recall** | 0.98  |
+| **Macro Avg F1-score** | 0.97  |
+| **Weighted Avg Precision** | 0.97 |
+| **Weighted Avg Recall** | 0.96 |
+| **Weighted Avg F1-score** | 0.96 |
 
 ## Dependencies
 
