@@ -21,7 +21,7 @@ nltk.download("stopwords", quiet=True)
 
 # Classe pour la classification des intentions
 class IntentClassifier:
-    def __init__(self, model_path="Models/intent_model.pkl", label_encoder_path="Models/label_encoder.pkl", threshold=0.3):
+    def __init__(self, model_path="Models/svm_model_augmented.pkl", label_encoder_path="Models/label_encoder.pkl", threshold=0.3):
         self.tokenizer = CamembertTokenizer.from_pretrained("camembert-base")
         self.model = CamembertModel.from_pretrained("camembert-base")
         self.label_encoder = joblib.load(label_encoder_path)
