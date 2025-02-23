@@ -17,7 +17,7 @@ A French intent classification system using CamemBERT for natural language under
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/intent-classifier.git
+   git clone https://github.com/akoutit/Chatbot_Intention.git
    cd intent-classifier
    ```
 
@@ -86,12 +86,5 @@ Use the `nn_classifier.ipynb` notebook.
 - scikit-learn
 - NLTK
 
-## Additional Recommendations
-
-To improve usability, consider adding:
-1. A `requirements.txt` file
-2. Sample test data
-3. A `LICENSE` file
-4. Documentation for model hosting on Hugging Face Hub
 
 
