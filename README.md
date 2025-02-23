@@ -18,7 +18,7 @@ A French intent classification system using CamemBERT for natural language under
 1. Clone the repository:
    ```bash
    git clone https://github.com/akoutit/Chatbot_Intention.git
-   cd intent-classifier
+   cd Chatbot_Intention
    ```
 
 2. Install dependencies:
@@ -32,14 +32,11 @@ A French intent classification system using CamemBERT for natural language under
 ### Command Line Interface
 
 ```bash
-# Single prediction
-python cli.py --text "Où est ma valise perdue ?"
+# Interactive mode
+python cli.py
 
 # Evaluate CSV file
 python cli.py --csv test_data.csv --threshold1 0.3 --threshold2 0.85
-
-# Interactive mode
-python cli.py
 ```
 
 ### Key Arguments

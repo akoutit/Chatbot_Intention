@@ -15,7 +15,8 @@ warnings.filterwarnings("ignore")
 nltk.download("stopwords", quiet=True)
 
 # Charger le modèle depuis Hugging Face
-MODEL_NAME = "Koutit/intention_classifier"
+# MODEL_NAME = "Koutit/intention_classifier"
+MODEL_NAME = "Koutit/nn_classifier_augmented"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model = CamembertForSequenceClassification.from_pretrained(MODEL_NAME).to(device)

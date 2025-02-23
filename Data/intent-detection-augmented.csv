@@ -1,0 +1,262 @@
+text,label
+"Comment traduire 'Où est la gare ?' en allemand ?",translate
+"Quelle est la traduction de 'Bonjour, comment ça va ?' en italien ?",translate
+"J'aimerais dire 'Je t'aime' en coréen, pouvez-vous m'aider ?",translate
+"Traduisez 'Réservez une table pour deux personnes' en espagnol",translate
+Existe-t-il des alertes de voyage actuelles pour l'Égypte ?,travel_alert
+Est-il sécurisé de voyager en Iran en ce moment ?,travel_alert
+Y a-t-il des avertissements pour les voyageurs en Haïti ?,travel_alert
+Quelles sont les alertes de voyage pour le Venezuela ?,travel_alert
+Quel est le statut du vol Air France 789 ?,flight_status
+Mon vol KLM 456 est-il à l'heure ?,flight_status
+Quelle est la porte d'embarquement pour le vol Delta 321 ?,flight_status
+À quelle heure atterrit le vol Emirates 654 ?,flight_status
+"Mes bagages ont disparu après le vol British Airways 789 à Heathrow",lost_luggage
+"Je n'ai pas reçu ma valise suite au vol Qatar 123 à Dubaï",lost_luggage
+"Que faire si mes bagages sont perdus sur le vol Lufthansa 456 ?",lost_luggage
+À qui signaler la perte d’un sac sur le vol Ryanair 987 ?,lost_luggage
+Quelles activités recommandez-vous à Bangkok ?,travel_suggestion
+"Si je visite Oslo, quels lieux sont incontournables ?",travel_suggestion
+Où manger des spécialités locales à Lisbonne ?,travel_suggestion
+Donnez-moi des idées de visites à Marrakech,travel_suggestion
+Puis-je prendre une trousse de toilette en cabine avec Air France ?,carry_on
+Quelles sont les règles des bagages à main pour les vols domestiques ?,carry_on
+Combien de liquide est autorisé en cabine sur les vols internationaux ?,carry_on
+Est-ce qu’un ordinateur portable compte comme un bagage à main ?,carry_on
+Réservez-moi un hôtel près de la plage à Miami du 5 au 12 août,book_hotel
+"Trouvez un hébergement économique à Paris du 20 au 25 septembre",book_hotel
+Quels hôtels proposent des spas à Zurich ?,book_hotel
+"Je cherche un hôtel familial à Kyoto pour le mois de juillet",book_hotel
+"Proposez-moi un vol aller-retour Montréal-Toronto le 15 octobre",book_flight
+"Réservez un vol économique de Genève à New York en novembre",book_flight
+Existe-t-il des vols directs de Madrid à Tokyo en décembre ?,book_flight
+Combien de temps faut-il pour cuire un œuf dur ?,out_of_scope
+Quel est le meilleur film de tous les temps selon les critiques ?,out_of_scope
+Comment réinitialiser un mot de passe Gmail oublié ?,out_of_scope
+Quelle est la distance entre la Terre et la Lune ?,out_of_scope
+Qui a inventé l'ampoule électrique ?,out_of_scope
+Quelle est la recette traditionnelle de la paella ?,out_of_scope
+"Pouvez-vous me dire comment dire «je ne parle pas beaucoup espagnol», en espagnol",translate
+Dites-moi comment dire: «C'est une belle matinée» en italien,translate
+"Si j'étais japonais, comment dirais-je que je suis touriste",translate
+Comment dire «hôtel» en finnois,translate
+"J'ai besoin que vous traduisiez la phrase, «nous y serons bientôt» en portugais",translate
+Veuillez me dire comment demander un taxi en français,translate
+Comment dire bonjour en anglais,translate
+La Corée du Nord a-t-elle des alertes de voyage que je devrais être conscientes,travel_alert
+Y a-t-il des alertes de voyage pour la Syrie,travel_alert
+Y a-t-il une alerte de voyage pour la Russie,travel_alert
+Est-il sûr de se rendre en Islande,travel_alert
+Parlez-moi des alertes de voyage émises pour l'Allemagne,travel_alert
+Y a-t-il des nouvelles sur le vol DL123,flight_status
+Quand allons-nous commencer à monter à bord de mon vol prévu,flight_status
+Quand mon vol décollera-t-il,flight_status
+Quand mon vol atterrira-t-il,flight_status
+quelle est la porte d'embarquement pour mon vol AF847,flight_status
+Quand vais-je arriver à destination,flight_status
+Localiser les bagages perdus de Flight America Airlines à O'Hare,lost_luggage
+Perte des bagages sur Flight America Airlines à O'Hare,lost_luggage
+Je pense que mes bagages ont été perdus,lost_luggage
+"Mes bagages sont manquants, j'étais sur le vol Frontier AB123 depuis Seattle",lost_luggage
+"Aide, j'ai perdu mes bagages",lost_luggage
+Savez-vous qui je devrais contacter car mes valises ne sont pas arrivées,lost_luggage
+À qui dois-je me plaindre que mes bagages n'arrivent pas à l'aéroport,lost_luggage
+Veuillez suggérer des activités touristiques amusantes à Tokyo,travel_suggestion
+"Si je vais à Evans, que dois-je faire",travel_suggestion
+Quels sont les bons restaurants à Chicago,travel_suggestion
+où devrais-je passer mon temps libre,travel_suggestion
+Que puis-je faire à Nashville,travel_suggestion
+Donnez-moi une liste de choses à faire à Orlando,travel_suggestion
+Où est la meilleure cave du sud de la France,travel_suggestion
+Y a-t-il des activités touristiques amusantes en Australie,travel_suggestion
+Voulez-vous me faire part des restrictions de bagage à main pour American Airlines,carry_on
+Restrictions de cabine pour les émirats arabes unis,carry_on
+Qu'est-ce que je suis autorisé à prendre en cabine avec American Airlines,carry_on
+Y a-t-il une limite de poids pour mon bagage à main,carry_on
+Combien de bagages à main puis-je prendre pendant un vol avec United pour Lax,carry_on
+Quelles sont les règles concernant les bagages à main pour les vols Virgin Airlines,carry_on
+Y a-t-il une limite de poids de bagage cabine,carry_on
+Dois-je payer pour mes bagages à main,carry_on
+Réservez-moi une chambre du 11 au 15 novembre à Cali,book_hotel
+Trouvez-moi un endroit où séjourner à Cali du 11 au 15 novembre,book_hotel
+Quels hôtels ont des critiques décentes à Bangor,book_hotel
+Veuillez me trouver une chambre d'hôtel pour 4 personnes du lundi au mercredi à Lakewood,book_hotel
+"Trouvez un hôtel Columbus, Ohio avec de bonnes critiques",book_hotel
+"S'il vous plaît, aidez-moi à réserver un endroit où séjourner à Pittsburgh du lundi au vendredi",book_hotel
+J'ai besoin d'une chambre d'hôtel assez grande pour 4 personnes du lundi au mercredi à Lakewood,book_hotel
+Trouvez-moi des vols aller-retour de LAX vers SFOX,book_flight
+Réservez un vol de Chicago à DC lundi et revenant mercredi,book_flight
+Je recherche un vol aller-retour de AAF à DIA du 23 février au 28 février,book_flight
+Pourriez-vous faire une réservation de vol avec Air Emirates d'Orlando à Londres,book_flight
+J'ai besoin de réserver un vol aller-retour de Dallas à Los Angeles du 2 au 10 mars,book_flight
+Je voudrais savoir quels vols sont disponibles sur El Paso à Dallas le 10 juin pour moins de 300 $,book_flight
+Combien coûte des frais de découvert pour la banque,out_of_scope
+Quelle taille d'essuie-glace cette voiture prend-t-elle,out_of_scope
+Quel est le plus grand état des États-Unis,out_of_scope
+Quelle est la compagnie aérienne la plus populaire,out_of_scope
+Combien de planètes avons-nous découvert,out_of_scope
+Combien de côtés dans un hexagone,out_of_scope
+Combien de temps dure l'hiver,out_of_scope
+qui est l'entraîneur des Chicago Bulls,out_of_scope
+Combien d'Oscars ont gagné les films Star Wars,out_of_scope
+Veuillez trouver la capitale du Pakistan ,out_of_scope
+qui est le personnage le plus effrayant de Start Trek,out_of_scope
+Quelle est la durée de vie de la batterie moyenne d'un téléphone Android,out_of_scope
+Quand Camus est-il mort,out_of_scope
+Quand Nintendo a-t-il été créé,out_of_scope
+Quel personnage Marvel est apparu dans le plus de films,out_of_scope
+Quels sont les avantages de terminer le lycée,out_of_scope
+Pouvez-vous me dire à quelle vitesse moyenne l'avion vers la Californie va,out_of_scope
+Est-il possible de louer une voiture à la Laguardia du mardi au vendredi,out_of_scope
+Que vaut un dollar au Mexique,out_of_scope
+Quel est le taux de change entre l'USD et l'euro,out_of_scope
+Pouvez-vous me dire le fuseau horaire à San Francisco,out_of_scope
+Quels sont les meilleurs endroits à visiter en été ?,travel_suggestion
+Recommandez-moi une destination pour un voyage en famille.,travel_suggestion
+Où devrais-je aller pour un week-end en amoureux ?,travel_suggestion
+Quels sont les pays les plus sûrs pour voyager seul ?,travel_suggestion
+Puis-je emporter une bouteille d'eau dans mon bagage cabine ?,carry_on
+Quels objets sont interdits en cabine ?,carry_on
+Quelle est la taille maximale autorisée pour un bagage à main ?,carry_on
+Peut-on prendre une valise et un sac à dos en cabine ?,carry_on
+Comment dire 'merci' en japonais ?,translate
+"Traduisez cette phrase en espagnol : 'Je voudrais un café, s'il vous plaît.'",translate
+Quel est l'équivalent de 'bonjour' en allemand ?,translate
+Pouvez-vous traduire 'bonne journée' en italien ?,translate
+Que faire si ma valise n'arrive pas à destination ?,lost_luggage
+"J'ai perdu mes bagages, comment les retrouver ?",lost_luggage
+À qui dois-je m'adresser pour un bagage perdu ?,lost_luggage
+Que faire si ma valise a été envoyée au mauvais aéroport ?,lost_luggage
+Comment réserver une chambre d'hôtel en ligne ?,book_hotel
+Pouvez-vous m'aider à trouver un hôtel pas cher à Paris ?,book_hotel
+Quels sont les meilleurs sites pour réserver un hôtel ?,book_hotel
+Puis-je annuler une réservation d'hôtel gratuitement ?,book_hotel
+Comment savoir si mon vol est retardé ?,flight_status
+Quelle est l'heure d'arrivée prévue de mon vol ?,flight_status
+"Mon vol a été annulé, que dois-je faire ?",flight_status
+Comment vérifier l'état de mon vol en temps réel ?,flight_status
+Comment réserver un billet d'avion au meilleur prix ?,book_flight
+Quels sont les sites qui proposent des vols pas chers ?,book_flight
+Puis-je modifier ma réservation de vol après l'achat ?,book_flight
+Y a-t-il des offres spéciales pour les billets d'avion ?,book_flight
+Y a-t-il des restrictions de voyage en ce moment ?,travel_alert
+Comment savoir si une destination est dangereuse ?,travel_alert
+Y a-t-il des alertes sanitaires pour ce pays ?,travel_alert
+Les frontières sont-elles ouvertes pour les touristes ?,travel_alert
+Quel est le score du dernier match de football ?,out_of_scope
+Comment réparer une fuite d'eau dans ma maison ?,out_of_scope
+Quels sont les ingrédients pour faire un gâteau au chocolat ?,out_of_scope
+Peut-on adopter un chien sans passer par un refuge ?,out_of_scope
+"Comment traduire 'Où sont les toilettes ?' en japonais ?",translate
+"Quelle est la traduction de 'Merci beaucoup' en allemand ?",translate
+"Pouvez-vous traduire 'Je suis végétarien' en thaï ?",translate
+"Comment dire 'Je cherche la gare' en russe ?",translate
+"Traduisez 'Un café, s'il vous plaît' en grec moderne.",translate
+Y a-t-il des alertes de voyage pour le Brésil en ce moment ?,travel_alert
+Est-il dangereux de voyager en Afghanistan actuellement ?,travel_alert
+Existe-t-il des avertissements sanitaires pour le Kenya ?,travel_alert
+Les voyageurs doivent-ils éviter le Yémen ?,travel_alert
+Quelles sont les restrictions pour la Chine ?,travel_alert
+Mon vol Qatar QR789 est-il à l'heure ?,flight_status
+Quelle est la porte d'embarquement pour le vol Emirates EK456 ?,flight_status
+Le vol Air France 123 a-t-il du retard ?,flight_status
+À quelle heure décolle le vol Delta DL789 ?,flight_status
+Combien de temps dure le vol Singapore Airlines SQ321 ?,flight_status
+"Mes bagages n'ont pas été livrés après le vol British Airways BA123 à Heathrow",lost_luggage
+"Où déclarer une valise manquante sur le vol Lufthansa LH456 ?",lost_luggage
+"Que faire si mes affaires ont disparu pendant le vol Ryanair FR987 ?",lost_luggage
+"J'ai perdu mon sac sur le vol EasyJet U2456, quelle procédure ?",lost_luggage
+"Ma valise est endommagée suite au vol Turkish Airlines TK789",lost_luggage
+Quelles activités faire à Barcelone avec des enfants ?,travel_suggestion
+Où passer des vacances romantiques en Italie ?,travel_suggestion
+Recommandez des musées incontournables à Berlin,travel_suggestion
+Quels parcs nationaux visiter au Canada ?,travel_suggestion
+Où faire du shopping à Dubaï ?,travel_suggestion
+Puis-je prendre un ordinateur portable en cabine ?,carry_on
+Les bouteilles de parfum sont-elles autorisées en soute ?,carry_on
+Quelles sont les règles pour les liquides sur les vols domestiques ?,carry_on
+"Est-ce qu'un parapluie pliant compte comme bagage à main ?",carry_on
+Combien de kilos pour un bagage cabine sur Air France ?,carry_on
+Réservez-moi un hôtel 4 étoiles à Marrakech du 10 au 20 avril,book_hotel
+"Trouvez un hébergement avec piscine à Bali pour août",book_hotel
+Quels hôtels acceptent les animaux à New York ?,book_hotel
+"Je cherche un hôtel près de la plage à Phuket, Thaïlande",book_hotel
+"Réservez une suite pour 2 personnes à Tokyo du 5 au 12 mars",book_hotel
+Proposez-moi un vol Paris-Rome le 15 septembre,book_flight
+"Trouvez un vol économique de Montréal à Tokyo en décembre",book_flight
+Existe-t-il des vols directs entre Madrid et Sydney ?,book_flight
+"Réservez un billet aller-retour Genève-Londres pour octobre",book_flight
+Quels sont les vols les moins chers pour New York en novembre ?,book_flight
+Comment changer une roue de voiture ?,out_of_scope
+Quelle est la capitale de la Mongolie ?,out_of_scope
+Qui a écrit 'Le Petit Prince' ?,out_of_scope
+Comment créer un compte Instagram ?,out_of_scope
+Quelle est la distance entre Mars et la Terre ?,out_of_scope
+Quels sont les symptômes de la grippe ?,out_of_scope
+Comment tricoter un pull en laine ?,out_of_scope
+Qui a gagné la Coupe du Monde 2022 ?,out_of_scope
+"Pouvez-vous traduire 'Où est la pharmacie la plus proche ?' en suédois ?",translate
+"Comment exprimer 'Je suis allergique aux arachides' en arabe ?",translate
+"Quelle est l'équivalence de 'Bon appétit' en coréen ?",translate
+"Traduire 'Je recherche un médecin' en hindi",translate
+"Comment dire 'Numéro d'urgence' en mandarin ?",translate
+Y a-t-il des risques d'émeutes en Haïti cette semaine ?,travel_alert
+Des ouragans sont-ils prévus en Floride ce mois-ci ?,travel_alert
+Existe-t-il des alertes terroristes pour Istanbul ?,travel_alert
+Les voyages non essentiels sont-ils déconseillés en Birmanie ?,travel_alert
+Des restrictions COVID-19 s'appliquent-elles encore au Japon ?,travel_alert
+Quel est le statut du vol Southwest WN789 ?,flight_status
+Mon vol a-t-il été redirigé vers un autre aéroport ?,flight_status
+La compagnie propose-t-elle des compensations pour mon retard de vol ?,flight_status
+Puis-je obtenir un repas gratuit suite au retard du vol ?,flight_status
+"Mes bagages sont restés coincés à Dubai lors de ma correspondance",lost_luggage
+"Ma valise a été ouverte et des objets sont manquants",lost_luggage
+"La poignée de ma valise a été cassée pendant le transport",lost_luggage
+"Je n'ai reçu qu'un seul bagage sur deux à l'arrivée",lost_luggage
+"La compagnie aérienne a perdu mon équipement médical",lost_luggage
+Où faire du vélo en montagne en Suisse ?,travel_suggestion
+Quels festivals culturels visiter en Inde cet hiver ?,travel_suggestion
+Recommandez des plages isolées aux Maldives,travel_suggestion
+Où observer des aurores boréales en Norvège ?,travel_suggestion
+Quels circuits moto faire en Nouvelle-Zélande ?,travel_suggestion
+Puis-je transporter des couteaux de cuisine en soute ?,carry_on
+Les powerbanks sont-ils autorisés en cabine ?,carry_on
+Quelles sont les règles pour les instruments de musique ?,carry_on
+"Un appareil photo professionnel compte-t-il comme bagage à main ?",carry_on
+Puis-je apporter des plantes dans l'avion ?,carry_on
+Réservez-moi un hôtel avec spa en Islande pour février,book_hotel
+"Trouvez un ryokan traditionnel à Kyoto pour avril",book_hotel
+Quels hôtels offrent des chambres adaptées aux handicapés ?,book_hotel
+"Je veux un hôtel avec vue sur la tour Eiffel",book_hotel
+"Réservez une villa privative aux Seychelles",book_hotel
+Trouvez-moi un vol de nuit Paris-New York,book_flight
+Existe-t-il des vols avec escale courte pour Sydney ?,book_flight
+"Je cherche un vol écologique vers San Francisco",book_flight
+Quelle compagnie offre le meilleur confort en classe éco ?,book_flight
+Comment réserver un vol avec un animal d'assistance ?,book_flight
+Comment fonctionne la photosynthèse ?,out_of_scope
+Quelle est la profondeur de la fosse des Mariannes ?,out_of_scope
+Comment calculer mon indice de masse corporelle ?,out_of_scope
+Qui a peint La Nuit étoilée de Van Gogh ?,out_of_scope
+Comment réinitialiser mon routeur Wi-Fi ?,out_of_scope
+Quelle est la vitesse de la lumière dans l'eau ?,out_of_scope
+Comment préparer un cocktail Mojito ?,out_of_scope
+Quels sont les droits des locataires en France ?,out_of_scope
+"Comment traduire 'Alerte incendie' en finnois ?",translate
+"Quelle est la traduction officielle de 'contrat de travail' en néerlandais ?",translate
+"Pouvez-vous m'aider à comprendre ce panneau en chinois ?",translate
+Existe-t-il des zones à éviter dans les favelas de Rio ?,travel_alert
+Des vaccins spéciaux sont-ils requis pour le Ghana ?,travel_alert
+Le vol Emirates EK511 atterrit-il à terminal 2 ?,flight_status
+Puis-je obtenir un siège côté hublot sur le vol AA789 ?,flight_status
+"Mes bagages sentent la fumée, que faire ?",lost_luggage
+"La compagnie a perdu mon équipement de plongée",lost_luggage
+Où faire du ski hors-piste en sécurité ?,travel_suggestion
+Quels sites historiques visiter en Égypte hors saison ?,travel_suggestion
+"Un fer à lisser est-il autorisé en cabine ?",carry_on
+Puis-je transporter des bijoux de valeur en soute ?,carry_on
+"Réservez un hôtel avec parking gratuit à Munich",book_hotel
+Existe-t-il des hôtels sous-marins aux Maldives ?,book_hotel
+"Trouvez un vol avec accès lounge inclus",book_flight
+Comment devenir astronaute ?,out_of_scope
+Quelle est la recette du risotto aux champignons ?,out_of_scope
