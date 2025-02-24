@@ -58,6 +58,110 @@ Use the `nn_classifier.ipynb` notebook.
   - 200+ epoch training with early stopping
   - Model serialization
 
+
+
+
+
+## Training & Benchmark
+
+### Training 
+
+For training, we used data augmentation via chatbots, generating diverse utterances to enrich the dataset.  
+The training was conducted using the `nn_classifier.ipynb` and `SVM_classifier.ipynb` notebook with the datasets located at `/content/intent-detection-augmented.csv` and `/content/intent-detection-Train.csv`.  
+The notebook implements:
+- **Stratified data splitting** to ensure class balance.
+- **200+ epoch training** with **early stopping**.
+- **Model serialization** for reuse.
+
+We benchmarked two models:
+1. **SVM** using **CamemBERT embeddings**.
+2. **Neural Network** using the **CamemBERTClassifier pretrained model**.
+
+To evaluate the generalization of each classifier, we created a **custom minimal dataset (`Data/intent-detection-minimal.csv`)**, where we manually added verbatims for each label.
+
+### Benchmark Results
+
+We tested four configurations:
+
+#### **1. SVM trained on the original dataset**
+```bash
+python .\svm_cli.py --csv .\Data\intent-detection-minimal.csv
+```
+**Accuracy:** 0.1667  
+
+| Intent             | Precision | Recall | F1-score | Support |
+|--------------------|-----------|--------|----------|---------|
+| book_flight       | 0.00      | 0.00   | 0.00     | 2       |
+| book_hotel        | 0.00      | 0.00   | 0.00     | 2       |
+| carry_on          | 0.00      | 0.00   | 0.00     | 2       |
+| flight_status     | 0.00      | 0.00   | 0.00     | 2       |
+| lost_luggage      | 0.00      | 0.00   | 0.00     | 2       |
+| out_of_scope      | 0.12      | 1.00   | 0.21     | 2       |
+| translate         | 1.00      | 0.50   | 0.67     | 2       |
+| travel_alert      | 0.00      | 0.00   | 0.00     | 2       |
+| travel_suggestion | 0.00      | 0.00   | 0.00     | 2       |
+
+#### **2. SVM trained on the augmented dataset**
+```bash
+python .\svm_cli.py --csv .\Data\intent-detection-minimal.csv
+```
+**Accuracy:** 0.8889  
+
+| Intent             | Precision | Recall | F1-score | Support |
+|--------------------|-----------|--------|----------|---------|
+| book_flight       | 0.67      | 1.00   | 0.80     | 2       |
+| book_hotel        | 1.00      | 1.00   | 1.00     | 2       |
+| carry_on          | 1.00      | 1.00   | 1.00     | 2       |
+| flight_status     | 1.00      | 0.50   | 0.67     | 2       |
+| lost_luggage      | 1.00      | 1.00   | 1.00     | 2       |
+| out_of_scope      | 0.67      | 1.00   | 0.80     | 2       |
+| translate         | 1.00      | 1.00   | 1.00     | 2       |
+| travel_alert      | 1.00      | 1.00   | 1.00     | 2       |
+| travel_suggestion | 1.00      | 0.50   | 0.67     | 2       |
+
+#### **3. CamemBERTClassifier trained on the original dataset**
+```bash
+python .\cli.py --csv .\Data\intent-detection-minimal.csv
+```
+**Accuracy:** 0.8889  
+
+| Intent             | Precision | Recall | F1-score | Support |
+|--------------------|-----------|--------|----------|---------|
+| book_flight       | 0.67      | 1.00   | 0.80     | 2       |
+| book_hotel        | 1.00      | 1.00   | 1.00     | 2       |
+| carry_on          | 1.00      | 1.00   | 1.00     | 2       |
+| flight_status     | 1.00      | 0.50   | 0.67     | 2       |
+| lost_luggage      | 1.00      | 1.00   | 1.00     | 2       |
+| out_of_scope      | 1.00      | 1.00   | 1.00     | 2       |
+| translate         | 1.00      | 1.00   | 1.00     | 2       |
+| travel_alert      | 0.67      | 1.00   | 0.80     | 2       |
+| travel_suggestion | 1.00      | 0.50   | 0.67     | 2       |
+
+#### **4. CamemBERTClassifier trained on the augmented dataset**
+```bash
+python .\cli.py --csv .\Data\intent-detection-minimal.csv
+```
+**Accuracy:** 1.0000  
+
+| Intent             | Precision | Recall | F1-score | Support |
+|--------------------|-----------|--------|----------|---------|
+| book_flight       | 1.00      | 1.00   | 1.00     | 2       |
+| book_hotel        | 1.00      | 1.00   | 1.00     | 2       |
+| carry_on          | 1.00      | 1.00   | 1.00     | 2       |
+| flight_status     | 1.00      | 1.00   | 1.00     | 2       |
+| lost_luggage      | 1.00      | 1.00   | 1.00     | 2       |
+| out_of_scope      | 1.00      | 1.00   | 1.00     | 2       |
+| translate         | 1.00      | 1.00   | 1.00     | 2       |
+| travel_alert      | 1.00      | 1.00   | 1.00     | 2       |
+| travel_suggestion | 1.00      | 1.00   | 1.00     | 2       |
+
+### **Conclusion**
+- The **SVM** model struggles to generalize when trained on the original dataset, but data augmentation significantly improves its performance.
+- The **CamemBERTClassifier** performs well even with the original dataset and achieves **perfect accuracy** when trained with data augmentation.
+- **Data augmentation via chatbots significantly improves generalization**, as demonstrated by the **large performance gap between models trained with and without augmentation**.
+- **CamemBERTClassifier outperforms SVM** on this task, highlighting the power of transformer-based models in intent classification.
+```
+
 ## Model Performance
 
 **Accuracy:** 0.9623  
