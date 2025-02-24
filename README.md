@@ -27,7 +27,6 @@ A French intent classification system using CamemBERT for natural language under
    ```
 
 
-Voici ton texte avec la mention que la première exécution peut prendre quelques secondes :  
 
 
 ## Usage
