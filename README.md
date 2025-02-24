@@ -117,6 +117,27 @@ We benchmarked two models:
 
 To evaluate the generalization of each classifier, we created a **custom minimal dataset (`Data/intent-detection-minimal.csv`)**, where we manually added verbatims for each label.
 
+| Texte                                                     | Label            |
+|-----------------------------------------------------------|------------------|
+| Comment dit-on 'bonjour' en espagnol ?                    | translate        |
+| Peux-tu traduire cette phrase en allemand ?               | translate        |
+| Y a-t-il des restrictions de voyage pour le Brésil ?      | travel_alert     |
+| Mon pays de destination est-il sous alerte rouge ?        | travel_alert     |
+| Peux-tu vérifier si mon vol AF456 est à l'heure ?         | flight_status    |
+| Est-ce que le vol pour Madrid est retardé ?               | flight_status    |
+| Ma valise a disparu à l'aéroport, comment la retrouver ?  | lost_luggage     |
+| J'ai perdu mes bagages, que dois-je faire ?               | lost_luggage     |
+| As-tu une idée de voyage pour un week-end en Europe ?     | travel_suggestion|
+| Quelle est la meilleure destination pour un voyage solo ? | travel_suggestion|
+| Puis-je prendre un sac à dos en cabine ?                  | carry_on         |
+| Quelles sont les dimensions autorisées pour un bagage cabine ? | carry_on   |
+| Je voudrais réserver un hôtel à Rome.                     | book_hotel       |
+| Peux-tu m’aider à trouver un hébergement à Tokyo ?        | book_hotel       |
+| Quels sont les vols disponibles pour Londres cette semaine ? | book_flight  |
+| Je veux réserver un billet d’avion pour New York.         | book_flight      |
+| Peux-tu me donner la météo pour demain ?                  | out_of_scope     |
+| Quel est le score du dernier match de football ?          | out_of_scope     |
+
 ### Benchmark Results
 
 We tested four configurations:
