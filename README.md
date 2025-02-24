@@ -59,7 +59,7 @@ python cli.py --csv test_data.csv --threshold1 0.3 --threshold2 0.85
 
 ## Training
 
-Use the `nn_classifier.ipynb` notebook.
+Use the `NN_classifier.ipynb` notebook.
 
 - Requires dataset at `/content/intent-detection-augmented.csv`
 - Implements:
@@ -111,7 +111,7 @@ Use the `nn_classifier.ipynb` notebook.
 ### Training 
 
 For training, we used data augmentation via chatbots, generating diverse utterances to enrich the dataset.  
-The training was conducted using the `nn_classifier.ipynb` and `SVM_classifier.ipynb` notebook with the datasets located at `/content/intent-detection-augmented.csv` and `/content/intent-detection-Train.csv`.  
+The training was conducted using the `NN_classifier.ipynb` and `SVM_classifier.ipynb` notebook with the datasets located at `/content/intent-detection-augmented.csv` and `/content/intent-detection-Train.csv`.  
 The notebook implements:
 - **Stratified data splitting** to ensure class balance.
 - **200+ epoch training** with **early stopping**.
