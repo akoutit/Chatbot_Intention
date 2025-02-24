@@ -123,7 +123,7 @@ We benchmarked two models:
 
 To evaluate the generalization of each classifier, we created a **custom minimal dataset (`Data/intent-detection-minimal.csv`)**, where we manually added verbatims for each label.
 
-| Texte                                                     | Label            |
+| Text                                                     | Label            |
 |-----------------------------------------------------------|------------------|
 | Comment dit-on 'bonjour' en espagnol ?                    | translate        |
 | Peux-tu traduire cette phrase en allemand ?               | translate        |
