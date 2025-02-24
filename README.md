@@ -27,12 +27,16 @@ A French intent classification system using CamemBERT for natural language under
    ```
 
 
+Voici ton texte avec la mention que la première exécution peut prendre quelques secondes :  
+
+```markdown
 ## Usage
 
 ### Command Line Interface
 
 ```bash
 # Interactive mode
+# Tapez 'exit' pour quitter.
 python cli.py
 
 # Evaluate CSV file
@@ -40,6 +44,9 @@ python cli.py --csv test_data.csv
 
 # Evaluate CSV file choosing other thresholds 
 python cli.py --csv test_data.csv --threshold1 0.3 --threshold2 0.85
+```
+
+💡 **Note** : Lors de la première exécution, la commande CLI peut prendre quelques secondes pour télécharger et installer le modèle hébergé sur Hugging Face. Une fois cette étape terminée, les exécutions suivantes seront fluides et rapides. 🚀  
 ```
 
 ### Key Arguments
