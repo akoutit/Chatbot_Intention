@@ -36,6 +36,9 @@ A French intent classification system using CamemBERT for natural language under
 python cli.py
 
 # Evaluate CSV file
+python cli.py --csv test_data.csv
+
+# Evaluate CSV file choosing other thresholds 
 python cli.py --csv test_data.csv --threshold1 0.3 --threshold2 0.85
 ```
 
