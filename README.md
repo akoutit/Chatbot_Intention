@@ -58,7 +58,42 @@ Use the `nn_classifier.ipynb` notebook.
   - 200+ epoch training with early stopping
   - Model serialization
 
+## Model Performance
 
+**Accuracy:** 0.9623  
+
+| Intent            | Precision | Recall | F1-score | Support |
+|-------------------|-----------|--------|----------|---------|
+| book_flight      | 1.00      | 1.00   | 1.00     | 5       |
+| book_hotel       | 1.00      | 1.00   | 1.00     | 5       |
+| carry_on         | 1.00      | 1.00   | 1.00     | 6       |
+| flight_status    | 1.00      | 1.00   | 1.00     | 5       |
+| lost_luggage     | 0.83      | 1.00   | 0.91     | 5       |
+| out_of_scope     | 1.00      | 0.80   | 0.89     | 10      |
+| translate        | 1.00      | 1.00   | 1.00     | 6       |
+| travel_alert     | 0.83      | 1.00   | 0.91     | 5       |
+| travel_suggestion | 1.00     | 1.00   | 1.00     | 6       |
+
+### Global Metrics  
+
+| Metric           | Value  |
+|-----------------|--------|
+| **Accuracy**        | **0.9623** |
+| **Macro Avg Precision** | 0.96  |
+| **Macro Avg Recall** | 0.98  |
+| **Macro Avg F1-score** | 0.97  |
+| **Weighted Avg Precision** | 0.97 |
+| **Weighted Avg Recall** | 0.96 |
+| **Weighted Avg F1-score** | 0.96 |
+
+## Dependencies
+
+- Python 3.8+
+- PyTorch
+- Transformers
+- Pandas
+- scikit-learn
+- NLTK
 
 
 
@@ -160,44 +195,9 @@ python .\cli.py --csv .\Data\intent-detection-minimal.csv
 - The **CamemBERTClassifier** performs well even with the original dataset and achieves **perfect accuracy** when trained with data augmentation.
 - **Data augmentation via chatbots significantly improves generalization**, as demonstrated by the **large performance gap between models trained with and without augmentation**.
 - **CamemBERTClassifier outperforms SVM** on this task, highlighting the power of transformer-based models in intent classification.
-```
 
-## Model Performance
 
-**Accuracy:** 0.9623  
 
-| Intent            | Precision | Recall | F1-score | Support |
-|-------------------|-----------|--------|----------|---------|
-| book_flight      | 1.00      | 1.00   | 1.00     | 5       |
-| book_hotel       | 1.00      | 1.00   | 1.00     | 5       |
-| carry_on         | 1.00      | 1.00   | 1.00     | 6       |
-| flight_status    | 1.00      | 1.00   | 1.00     | 5       |
-| lost_luggage     | 0.83      | 1.00   | 0.91     | 5       |
-| out_of_scope     | 1.00      | 0.80   | 0.89     | 10      |
-| translate        | 1.00      | 1.00   | 1.00     | 6       |
-| travel_alert     | 0.83      | 1.00   | 0.91     | 5       |
-| travel_suggestion | 1.00     | 1.00   | 1.00     | 6       |
-
-### Global Metrics  
-
-| Metric           | Value  |
-|-----------------|--------|
-| **Accuracy**        | **0.9623** |
-| **Macro Avg Precision** | 0.96  |
-| **Macro Avg Recall** | 0.98  |
-| **Macro Avg F1-score** | 0.97  |
-| **Weighted Avg Precision** | 0.97 |
-| **Weighted Avg Recall** | 0.96 |
-| **Weighted Avg F1-score** | 0.96 |
-
-## Dependencies
-
-- Python 3.8+
-- PyTorch
-- Transformers
-- Pandas
-- scikit-learn
-- NLTK
 
 
 
